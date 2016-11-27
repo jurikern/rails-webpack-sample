@@ -1,0 +1,8 @@
+/.bundle
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+.byebug_history
+/pg_data/*
+/node_modules/*

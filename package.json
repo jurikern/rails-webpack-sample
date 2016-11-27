@@ -1,0 +1,28 @@
+{
+  "name": "skywalker",
+  "version": "0.1.0",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+		"babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "css-loader": "latest",
+		"file-loader": "latest",
+		"url-loader": "latest",
+    "node-sass": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "latest",
+    "react": "latest",
+    "react-addons-css-transition-group": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --progress --colors",
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress --colors --port 3020"
+  }
+}
